@@ -1,0 +1,611 @@
+{
+  "localization": [
+    {
+      "id": "illume",
+      "entries": {
+        "active_term_label": {
+          "from": "From",
+          "to": "To",
+          "term_range": "__from_term__ - __to_term__",
+          "term_label": "__season__ __year__",
+          "term_unknown": "Unknown term",
+          "active_term": "Active Term",
+          "active_term_plural": "Active Terms (__count__)"
+        },
+        "alerts": {
+          "min_filter": "These filters have created a student group too small for statistical significance. Try removing one.",
+          "general_alert": "There are either not enough historical records total, or not enough historical records of persistence and non-persistence, to achieve statistical significance for Powerful Predictors with these filters applied. This lack of historical data does not affect prediction scores for currently enrolled students, which incorporate many predictors and are statistically significant.",
+          "no_search_results": "There are no results matching your search.",
+          "two_by_two_significance": "This pair of predictors creates student groups too small for statistical significance. Please try again.",
+          "feature_pdf_error": "The Powerful Predictor Plot encountered an error. Please click the button to try again."
+        },
+        "applied_filters": {
+          "label_clear_all": "Clear All"
+        },
+        "breadcrumbs": {
+          "overview": "Overview",
+          "paired_predictor_plots": "Paired Predictor Plots",
+          "powerful_predictors": "Powerful Predictors",
+          "student_list": "Student List",
+          "dataset_info": "Data Information"
+        },
+        "chart_tooltip": {
+          "label_active": "Active",
+          "label_baseline": "All"
+        },
+        "column_filters": {
+          "blank": "Blank",
+          "apply": "Apply",
+          "cancel": "Cancel",
+          "clear": "Clear",
+          "select_all": "Select All",
+          "prediction_buckets": {
+            "blank": "Unavailable",
+            "veryLow": "Very Low",
+            "low": "Low",
+            "moderate": "Moderate",
+            "high": "High",
+            "veryHigh": "Very High"
+          },
+          "prediction": "Persistence Prediction",
+          "display_term_prev": "Last Enrolled Term",
+          "display_term_next": "Next Enrolled Term",
+          "raw_advisor_id": "Assigned Advisor"
+        },
+        "dataset_info": {
+          "not_available": "Not Available",
+          "data_information": "Data Information",
+          "model_id": "Model ID",
+          "current_terms": "Current Active Term(s)",
+          "upcoming_terms": "Upcoming Active Term(s)",
+          "powerful_predictor_terms": "Powerful Predictor Term(s)",
+          "elevio_trigger": "What's this?",
+          "trend_title" : "Model Performance",
+          "columns": {
+            "term_name": "Term Name",
+            "academic_level": "Academic Level",
+            "start_date": "Start Date",
+            "end_date": "End Date",
+            "census_date": "Census Date",
+            "current_day": "Current Day in Term",
+            "trend_chart_availability": "Trend Chart Availability",
+            "sample_day": "Sample Day"
+          },
+          "dates": {
+            "prediction": "Data Freshness",
+            "prediction_tooltip": "The common date and timestamp of all data used in your predictive model. Student prediction scores are generated based on this date, which ensures we are generating predictions on the most current and complete data set.",
+            "processing": "Most Recent Data Processing ",
+            "processing_tooltip": "The most recent date and time the Civitas Learning platform successfully processed your institutional data.",
+            "civitas_extract": "Civitas Data Extract",
+            "civitas_extract_tooltip": "The most recent date and time the Civitas platform extracted data from your internal systems.",
+            "institutional_extract": "Institutional Data Extract",
+            "institutional_extract_tooltip": "The date and time your institution pulled data from its internal systems for extraction by the Civitas platform.",
+            "recent_enrollment": "Most Recent Enrollment Record",
+            "recent_enrollment_tooltip": "The most recent date and time an enrollment record for a student was pulled from your institution's SIS. This helps ensure regular student enrollment record updates.",
+            "future_enrollment": "Future Enrollment Record",
+            "future_enrollment_tooltip": "The latest date of future enrollment pulled from the SIS.This indicates how far into the future we have record of a student enrolling.",
+            "lms_activity": "Most Recent LMS Activity",
+            "lms_activity_tooltip": "The most recent day we have raw activity data pulled from the LMS for any student in our platform. This confirms we are receiving the most up-to-date activity data for a student."
+          }
+        },
+        "email_modal": {
+          "title": "Message Student(s)",
+          "campaign_name_label": "Nudge Campaign Name (will not be sent to students)",
+          "campaign_name_placeholder": "campaign name",
+          "campaign_context_label": "Nudge Campaign Context (will not be sent to students)",
+          "campaign_context_placeholder": "more details about this campaign",
+          "from": "From",
+          "you": "You (__email__)",
+          "to": "To",
+          "student_count": "__count__ Students",
+          "subject": "Subject",
+          "email_placeholder": "type your message here...",
+          "send": "Send Email",
+          "send_test": "Test Email",
+          "test_sent": "Test Email Sent",
+          "test_email_tooltip": "Sends a test email to __email__",
+          "error": "Oops! Something went wrong. Please try sending again.",
+          "success": "Your message has been sent to <b>__count__</b> students!",
+          "before_send": "You are about to send a nudge to <b>__count__</b> students. Are you sure?",
+          "before_close": "Information will not be saved if you cancel outreach.<br /> Are you sure you want to cancel?",
+          "confirm_send": "Yes, continue sending",
+          "cancel_send": "No, cancel",
+          "confirm_close": "Yes, Cancel",
+          "cancel_close": "No, Continue Outreach",
+          "advisor_warning_message": "Advisors will get a copy of the email and student responses will be sent to them directly. Emails to students without assigned advisors will appear to come from the email associated with your account.",
+          "spoof_warning_message": "Emails will be sent from __name__ and student responses will be sent to __email__",
+          "confirm": "Got it",
+          "from_selector": {
+            "you": "You ",
+            "advisor": "Student's Advisor ",
+            "advisors_detail": " Advisors Mapped",
+            "advisors_loading": " Loading Advisor Mapping"
+          },
+          "exclude_options": "Exclude Options",
+          "deceased_exclusion": "Exclude Deceased Students (__count__)",
+          "enrolled_exclusion": "Exclude Students Enrolled in an Upcoming Term (__count__)",
+          "invalid_email": "Invalid Email",
+          "opened_exclusion": "Exclude Students Who Opened a Previous Email in this Campaign (__count__)",
+          "opened_exclusion_reason": "Opened a Previous Email in this Campaign",
+          "loading_exclusion": "Loading...",
+          "excluded_outreach_email": "Excluded from Outreach Emails",
+          "requested_exclusion_count": "1 email has been excluded from this outreach by request: ",
+          "requested_exclusion_count_plural": "__count__ emails have been excluded from this outreach by request: ",
+            "withdrawn_exclusion": "Exclude Students Who Have Withdrawn from All Courses This Term (__count__)"
+        },
+        "feature_pdf": {
+          "toolbar_subtitle": "This chart contains historical persistence data sampled on day __sample_day__ from __term_count__ previous terms",
+          "legend": {
+            "pos_label": "Persisted",
+            "pos_label2": "Persisted: __posBinnedPercent__%",
+            "pos_label_with_percentage": "Persisted: __posBinnedPercent__% (__posBinnedFromTotal__%)",
+            "neg_label": "Did Not Persist",
+            "neg_label2": "Did Not Persist: __negBinnedPercent__%",
+            "neg_label_with_percentage": "Did Not Persist: __negBinnedPercent__% (__negBinnedFromTotal__%)",
+            "notable_point": "Notable Point",
+            "legend_info": "Historical persistence",
+            "avg_likelihood_persistence": "Avg. Likelihood of Persistence: __posBinnedPercent__%",
+            "likelihood_persistence": "Likelihood of Persistence",
+            "statistically_insignificant": "Statistically Insignificant"
+          },
+          "terms_tooltip": {
+            "desc": "This chart includes persistence data from the following completed terms",
+            "more_info": "More Info",
+            "term_name": "Term Name",
+            "academic_level": "Academic Level",
+            "end_date": "End Date",
+            "sample_day": "Sample Day",
+            "additional_terms": "and __count__ other terms"
+          },
+          "tooltip": {
+            "pos_label": "Persist",
+            "neg_label": "No Persist",
+            "overall_label": "Overall",
+            "tipping_point_label": "Tipping Point",
+            "momentum_point_label": "Momentum Point",
+            "persistence_rate": "Persistence Rate",
+            "persistence_rate_delta": "Distance from Avg.",
+            "insignificant": "The amount of data available for this group is too small for statistical significance."
+          },
+          "feature_value": "Predictor Value",
+          "population": "Student Population (%)",
+          "pos_group": "Persisted",
+          "neg_group": "Did Not Persist",
+          "tipping_group": "Tipping Points",
+          "momentum_group": "Momentum Points",
+          "civ_other": "Other",
+          "sample_count": "Sample Count: ",
+          "sample_count2": "Sample Count: __binned__ of __total__ (__binnedPercent__%)",
+          "likelihood_of_persistence": "Likelihood of Persistence",
+          "retry_button": "Click Here",
+          "header_text": "__predictor_name__",
+          "build_paired_predictors": "Build Paired Predictors",
+          "more_info_content": "Placeholder text. @jacob where's my copy?",
+          "selected_range": "Selected Range",
+          "selected_range_value": {
+            "middle": "__min__ - __max__",
+            "first": "&lt; __max__",
+            "last": "&ge; __min__"
+          },
+          "persistence_rate": "Persistence Rate",
+          "distance_from_avg": "Dist From Avg",
+          "persisted": "of Persisters",
+          "did_not_persist": "of Non-persisters",
+          "overall": "of Overall",
+          "selected_count": "Historical Count",
+          "view_active_students": "View Active Students",
+          "true": "True",
+          "false": "False"
+        },
+        "nav": {
+          "persistence": "Persistence",
+          "scratchpad": "Scratchpad",
+          "outreach": "Outreach",
+          "nudge_hub": "Nudge Hub",
+          "data_tooltip": "View data timestamps",
+          "scratchpad_beta_tooltip": "Scratchpad is a new feature that lets you save charts in a tab visible to your colleagues. Click the save to Scratchpad button above any Powerful Predictor chart to add it to your institution's shared Scratchpad."
+        },
+        "nudge_hub": {
+          "page_title": "Illume - Nudge Hub",
+          "community_insights": {
+            "title": "Featured Resource",
+            "subtitle": "Read the latest issue of our Community Insights",
+            "desc": "An analysis of student records across 53 institutions shows that nearly one in five students who do not graduate have seventy five percent or more of the credits required by a Bachelor’s or Associate’s degree. This finding highlights the opportunity to lift persistence by identifying which of your near-completer students may be in need of support to cross the finish line.",
+            "action": "Download the Report"
+          },
+          "featured_nudges": {
+            "title": "Featured Nudges",
+            "desc": "Civitas is constantly working to bring you new nudge content. Check here to find the latest in nudging and nudge campaigns."
+          },
+          "choosing_a_framework": {
+            "section_title": "Choosing a Framework",
+            "mindset_title": "Mindset",
+            "mindset_desc": "A student's perspective about themselves, their school, and their ability to achieve their goals impacts their likelihood to succeed.",
+            "mindset_link": "Learn more about mindset nudges",
+            "mattering_title": "Mattering",
+            "mattering_desc": "A student's beliefs about their relationship with their school and their learning community affects their motivation to work through challenges.",
+            "mattering_link": "Learn more about mattering nudges"
+          },
+          "nudge_library": {
+            "title_enrolled": "__title__ - Enrolled",
+            "title_unenrolled": "__title__ - Unenrolled",
+            "spring": "Spring Nudge Library",
+            "summer": "Summer Nudge Library",
+            "fall": "Fall Nudge Library",
+            "mindset_title": "Mindset",
+            "mattering_title": "Mattering"
+          },
+          "nudge_campaign_planning_templates": {
+            "title": "Nudge Campaign Planning Templates",
+            "desc": "Use this template to lead a campaign planning discussion with the DIAL working group. Key components of a campaign include the purpose, goals, communication strategy and logistical considerations, the target student list, supporting data and insights from Illume, the action plan, and summary learnings."
+          },
+          "nudge_campaign_presentation_templates": {
+            "title": "Nudge Campaign Presentation Templates",
+            "desc": "Use this template to provide a summary view of institution-specific campaigns to key stakeholders."
+          },
+          "designing_a_measurable_nudge_campaign": {
+            "title": "Designing a Measurable Nudge Campaign",
+            "desc": "This document and presentation are designed to help partners understand how to design a nudge campaign in a way that can be measured by a custom impact analysis.",
+            "action": "Download the Guide"
+          },
+          "nudging_resources": {
+            "title": "Nudging Resources",
+            "desc": "Kick off a nudging campaign at your institution with these helpful resources and guides."
+          },
+          "campaign_guides": {
+            "title": "Campaign Guides"
+          },
+          "webinars": {
+            "title": "Nudging Webinars",
+            "desc": "Watch these webinars to learn how partners are driving student success with nudging and outreach initiatives."
+          }
+        },
+        "pages": {
+          "main_title": "Illume",
+          "powerful_predictors_title": "Illume - Powerful Predictors",
+          "paired_predictors_title": "Illume - Paired Predictors",
+          "student_list_title": "Illume - Student List",
+          "dataset_info_title": "Illume - Data Information"
+        },
+        "persistence_probability_overview": {
+          "title": "Prediction Distribution - ",
+          "student_count_label": "Active Student",
+          "student_count_label_plural": "Active Students",
+          "probability_bucket_info": {
+            "title": "Prediction Distribution Categories",
+            "veryLow": "Very Low < 20%",
+            "low": "Low = 20% - 50%",
+            "moderate": "Moderate = 50% - 70%",
+            "high": "High = 70% - 90%",
+            "veryHigh": "Very High > 90%"
+          },
+          "buckets": {
+            "veryLow": {
+              "display_name": "Very Low"
+            },
+            "low": {
+              "display_name": "Low"
+            },
+            "moderate": {
+              "display_name": "Moderate"
+            },
+            "high": {
+              "display_name": "High"
+            },
+            "veryHigh": {
+              "display_name": "Very High"
+            }
+          }
+        },
+        "powerful_predictors": {
+          "title": "Powerful Predictors",
+          "subtitle": "Powerful Predictors use historical data to show what variables are important to persistence for this group of students",
+          "view_all": "View All Powerful Predictors",
+          "learn_more": "Learn about Powerful Predictors",
+          "card_label": "__category__ (__count__)",
+          "correlation_strongest": "Strongest correlation to persistence",
+          "correlation_weakest": "Weakest correlation to persistence",
+          "highest_signal": "Highest Signal",
+          "lowest_signal": "Lowest Signal",
+          "rank": "Rank __rank__",
+          "loading": "Loading Powerful Predictors"
+        },
+        "powerful_predictor_list": {
+          "feature_mom_tooltip": "Calculated using all historical samples for students (both known and unknown values) related to the currently selected Powerful Predictor. Powerful Predictor rankings are based off of MOM (ALL) scores.",
+          "feature_datapercent_tooltip": "This indicates the percent of historical student data available for a Powerful Predictor with the current filters applied.",
+          "headers": {
+            "feature_rank": "Rank",
+            "feature_name": "Predictor Name",
+            "feature_category": "Category",
+            "feature_mom": "MOM (ALL)",
+            "feature_datapercent": "Data %"
+          },
+          "count": "Showing __count__ Predictors",
+          "filter_label": "__name__ (__count__)",
+          "filter_placeholder": "All Categories",
+          "search_placeholder": "Search for a powerful predictor",
+          "no_search_results": "There are no results matching your search.",
+          "alert": "There are either not enough historical records total or not enough historical records of persistence and non-persistence to achieve statistical significance for this Powerful Predictor with these filters applied. This lack of historical data does not affect prediction scores for currently enrolled students, which incorporate many predictors and are statistically significant."
+        },
+        "powerful_predictor_details": {
+          "feature_pdf": {
+            "loading": "Loading Powerful Predictor Chart"
+          },
+          "all_predictors": {
+            "title": "Powerful Predictors",
+            "subtitle": "Powerful Predictors use historical data to show what variables are important to persistence for this group of students",
+            "loading": "Loading Powerful Predictor Table",
+            "list_table": {
+              "feature_mom_tooltip": "Calculated using all historical samples for students (both known and unknown values) related to the currently selected Powerful Predictor. Powerful Predictor rankings are based off of MOM (ALL) scores.",
+              "feature_data_mom_tooltip": "Calculated using only historical samples for students with known values related to the currently selected Powerful Predictor. MOM (DATA ONLY) scores are a good way to understand variables which are predictive despite only applying to a small percentage of the student population.",
+              "feature_predictability_tooltip": "Calculated using all historical samples for students (both known and unknown values) related to the currently selected Powerful Predictor.  2/3 of the Powerful Predictor rankings are based off of these scores. 1/3 is based off of Mutual Info.",
+              "feature_data_predictability_tooltip": "Calculated using only historical samples for students with known values related to the currently selected Powerful Predictor.  These scores are not used for ranking but are a good way to understand variables which are predictive despite only applying to a small percentage of the student population.",
+              "feature_datapercent_tooltip": "This indicates the percent of historical student data available for a Powerful Predictor with the current filters applied.",
+              "headers": {
+                "feature_rank": "Rank",
+                "feature_id": "ID",
+                "feature_name": "Predictor Name",
+                "feature_category": "Category",
+                "feature_mom": "MOM (ALL)",
+                "feature_data_mom": "MOM (DATA ONLY)",
+                "feature_mutual_info": "Mutual Info",
+                "feature_datapercent": "Data %"
+              },
+              "predictorsperpage": "Predictors per page",
+              "page": "Showing __start__ - __end__ of __total__ Predictors",
+              "pagination": {
+                "next": "Next",
+                "previous": "Previous"
+              },
+              "search_label": "Search: _INPUT_",
+              "search_placeholder": "Search predictors"
+            }
+          },
+          "undefined_predictor": "You have filtered down to a student group that is incompatible with this Powerful Predictor."
+        },
+        "prediction_overview": {
+          "details": {
+            "header_label_baseline": "__label__ - __count__",
+            "header_label_filtered": "Active Filter - __count__"
+          },
+          "from": "From",
+          "to": "To",
+          "header_title": "Persistence Prediction",
+          "prediction_term": "__from_term__ - __to_term__",
+          "term_label": "__season__ __year__",
+          "term_unknown": "Unknown term",
+          "active_term": "Active Term",
+          "active_term_plural": "Active Terms (__count__)"
+        },
+        "roc": {
+            "optimal": "Optimal",
+          "toolbar_title": "Model Performance",
+          "civitas": "Civitas",
+          "simple": "None",
+          "area_under_curve": "AUC",
+          "alarm_rate": "False Alarm Rate",
+          "detection_rate": "Detection Rate",
+          "correct_id_rate": "Correct ID %",
+          "number_of_students": "Number of Students"
+        },
+        "sidebar": {
+          "faceted_search": {
+            "label_filter_details": "Filter Details",
+            "label_filters": "Filters",
+            "label_clear_facet": "Unselect All",
+            "label_select_all_facet": "Select All",
+            "label_filter_details_submit": "Submit",
+            "label_apply_changes": "Apply Changes"
+          },
+          "saved_filters": {
+            "widget_title": "Saved Filters",
+            "label_make_default": "Make Default Saved Filter",
+            "label_clear_default": "Clear Default Saved Filter",
+            "delete_button": "Delete",
+            "cancel_button": "Cancel",
+            "validation_message_keys": {
+              "saved_filter_name_must_be_unique": "This name is already in use by another Saved Filter."
+            },
+            "no_saved_filters": "There are no saved filters.",
+            "delete_confirmation_start": "Are you sure you want to delete ",
+            "delete_confirmation_end": "? This can't be undone."
+          }
+        },
+        "student_list": {
+          "title": "Student List - ",
+          "title_range": "__start__ - __end__ of __total__ Students",
+          "title_range_empty": "0 Students",
+          "students_per_page": "Students Per Page",
+          "show_not_enrolled_students": "Show Students Not Enrolled in Current Term",
+          "hide_not_enrolled_students": "Hide Students Not Enrolled in Current Term",
+          "loading": "Loading Student List",
+          "students_not_enrolled_alert": {
+            "message": "This student list now includes students who are not enrolled in the current term. Students last enrolled in the previous term will have a prediction score from that term. Those not enrolled in the previous term will not show a persistence prediction.",
+            "not_enrolled_count": "<b>__count__</b> Student Not Enrolled in Current Term was added.",
+            "not_enrolled_count_plural": "<b>__count__</b> Students Not Enrolled in Current Term were added."
+          },
+          "pagination": {
+            "next": "Next",
+            "previous": "Previous"
+          },
+          "export_table": {
+            "student_id": "Student ID",
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "email": "Email",
+            "phone": "Phone",
+            "assigned_advisor": "Assigned Advisor",
+            "nudge": "Nudge",
+            "raw_person_id": "Raw Person ID",
+            "institution_person_id": "Institution Person ID",
+            "campaign_id": "Campaign ID",
+            "outreach_event_id": "Outreach Event ID",
+            "delivered": "Is Delivered",
+            "opened": "Is Open",
+            "clicked": "Is Clicked",
+            "nudge_number": "Nudge",
+            "enrolled_current_term": "Enrolled Current Term",
+            "last_enrolled_term": "Last Enrolled Term",
+            "next_enrolled_term": "Next Enrolled Term",
+            "persistence_prediction": "Persistence Prediction",
+            "persistence_prediction_score": "Persistence Prediction Score",
+            "disclaimer": "__institution__: The data contained in this report is the property of this institution and may not be shared without the express consent of the institution. Users of this system acknowledge the sensitive and private nature of the data contained in this system and agree to abide by their policies on confidentiality of institutional data. This report is intended for the requested purposes only.",
+            "not_enrolled_disclaimer": "* Prediction scores for students not enrolled in the current term are from the last day of the prior term",
+            "is_excluded": "Was Excluded",
+            "excluded_reason": "Exclusion Reason",
+            "sent_by": "Sent by",
+            "persisted": "Civitas-Internal - Persisted",
+            "from_civ_career_term_id": "Civitas-Internal - Persisted From Term ID",
+            "from_term_season": "Civitas-Internal - Persisted From Term Season",
+            "from_term_year": "Civitas-Internal - Persisted From Term Year",
+            "to_civ_career_term_id": "Civitas-Internal - Persisted To Term ID",
+            "to_term_season": "Civitas-Internal - Persisted To Term Season",
+            "to_term_year": "Civitas-Internal - Persisted To Term Year",
+              "civ_career_id": "Academic Level"
+          },
+          "headers": {
+            "student_id": "Student ID",
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "prediction": "Persistence Prediction",
+            "email": "Email",
+            "civ_is_enrolled": "Enrolled Current Term",
+            "display_term_prev": "Last Enrolled Term",
+            "display_term_next": "Next Enrolled Term",
+            "assigned_advisor": "Assigned Advisor"
+          },
+          "persistence_prediction": {
+            "veryLow": "Very Low",
+            "low": "Low",
+            "moderate": "Moderate",
+            "high": "High",
+            "veryHigh": "Very High",
+            "unavailable": "Unavailable",
+            "undefined": "Unavailable",
+            "tooltip_text_unavailable": "This student was not enrolled in the previous term, so the persistence prediction score is unavailable.",
+            "tooltip_text_unenrolled": "This student's persistence prediction score is based on the end of the previous enrolled term."
+          },
+          "bins": {
+            "true": "True",
+            "false": "False",
+            "unknown": "Unknown"
+          },
+          "yes": "Yes",
+          "no": "No",
+          "export": "Export Student List",
+          "outreach_disabled": "Outreach cannot be sent to the entire student population, please filter to a smaller group to send a nudge.",
+          "outreach": "Outreach",
+          "range_value": {
+            "middle": "__min__ - __max__",
+            "first": "< __max__",
+            "last": "\u2265 __min__"
+          },
+          "excluded_email": "This student will not recieve any Outreach Emails"
+        },
+        "selected_filters": {
+          "label_active_filters": "Active Filters",
+          "label_show_more": "Show More",
+          "label_show_less": "Show Less",
+          "label_select_apply_changes": "After adding & removing filters, select <b>Apply Changes</b> to see updated results.",
+          "label_save": "Save Filter",
+          "label_filtername": "Filter Name:",
+          "label_filtername_placeholder": "Filter Name",
+          "label_student_counts": "<b>__active__</b> of __baseline__ Active Students"
+        },
+        "elevio_banner": {
+          "content": "Learn about upcoming enhancements to Powerful Predictors.",
+          "button_content": "Watch Video"
+        },
+        "top_features" :{
+          "empty_message": "There are either not enough historical records total, or not enough historical records of persistence and non-persistence, to achieve statistical significance for this Powerful Predictor with these filters applied. This lack of historical data does not affect prediction scores for currently enrolled students, which incorporate many predictors and are statistically significant.",
+          "show_all_link": "Show all",
+          "more_info_content": "Placeholder text. @jacob where's my copy?",
+          "toolbar_title": "Powerful Predictors"
+        },
+        "trend_chart": {
+          "term_day_error_message": "Prediction trends are not available early in the term.",
+          "more_information_btn": "Click here for more information",
+          "header_title": "Student Prediction Trend",
+          "term_label": "__season__ __year__",
+          "term_unknown": "Unknown term",
+          "legend": {
+            "baseline_label": "All Students",
+            "filtered_label": "Active Filter",
+            "predicted_label": "Prediction"
+          },
+          "tooltip": {
+            "label_change_vs_previous_term": "Change<br>__previous_term__",
+            "label_difference_vs_baseline": "Difference<br>From All",
+            "label_difference_vs_filtered": "Difference<br>From Active"
+          }
+        },
+        "two_by_two": {
+          "toolbar_more_charts": "MORE CHARTS",
+          "boolean_feature": "False / True",
+          "submit_button": "Submit",
+          "split": "__axisName__ Split: __split__",
+          "xhigh": "X Axis",
+          "yhigh": "Y Axis",
+          "persist_rate": "Persistence Rate",
+          "persist_rate_abbr": "PR",
+          "active_students": "Active Students",
+          "toolbar_title": "Paired Predictor Plot",
+          "undefined_predictor": "You have filtered down to a student group that is incompatible with this Paired Predictor Plot.",
+          "predictor_message": "Select a powerful predictor for the Y axis to display persistence metrics.",
+          "apply_message": "As you apply filter changes, the paired predictor plot will be updated.",
+          "select_prompt": "Select...",
+          "about": {
+            "more_info": "More Info",
+            "desc": "About this chart",
+            "quadrants": "Each quadrant on this chart corresponds to the same quadrant on the companion chart on the right.  The data in this chart shows the overall number of students in each quadrant, with the center circle identifying the total for all for quadrants.",
+            "quadrants_pr_value": "93.99%",
+            "persist_rate_abbr": "PR",
+            "quadrants_pr_result": "Persistence Rate = ",
+            "quadrants_pr_dividend": "# of Students Who Persisted (123,456)",
+            "quadrants_pr_divisor": "Total # of Students (123,456 + 7891)",
+            "quadrants_simplified_ratio_value": "15.65 : 1",
+            "quadrants_simplified_ratio_desc": "Simplified Ratio of Persisting to Non-persisting Students. \nEx: For every 15.65 students, 1 does not persist.",
+            "quadrants_explicit_ratio_value": "123,456 : 7,891",
+            "quadrants_explicit_ratio_desc": "# of Persisting Students : # of Non-persisting Students",
+            "heatmap": "Each quadrant on this chart corresponds to the same quadrant on the companion chart on the left. The plot is divided into four quadrants by the median value of each Powerful Predictor. The heat map shows the concentration of persisting students (blue) and non-persisting students (red) from the historical sample."
+          }
+        },
+        "outreach": {
+          "main_title": "Outreach",
+          "loading": "Loading Outreach",
+          "campaign_name_header": "Campaign Name",
+          "sent_by_header": "Sent By",
+          "sent_date_header": "Sent",
+          "open_rate_header": "Open Rate",
+          "click_rate_header": "Click-Through Rate",
+          "advisor_sent": "__user__ (as Advisors)",
+          "spoofed_sender": "__user__ (as __spoofed__)",
+          "campaign_name": "__name__ ",
+          "students_list": "(__count__ students)",
+          "download_impact_report": "Impact Report",
+          "download_outreach_report": "Report",
+          "send_another_nudge": "Nudge",
+          "message_sent": "Message sent",
+          "filters_used": "Filters used",
+          "powerful_predictors_used": "Powerful predictors used",
+          "column_filters_used": "Column filters used",
+          "nudge_context": "Nudge campaign context",
+          "analytics_not_applicable": "N/A",
+          "empty_message": {
+            "title": "No Outreach has been sent yet.",
+            "detail": "Your Outreach Campaigns will be stored and tracked here."
+          },
+          "pagination": {
+            "pagination_info": "__start__ - __end__ of __total__ Campaigns",
+            "campaigns_per_page": "Campaigns per page"
+          },
+          "exclusions_applied": "Exclusions Applied",
+          "deceased_exclusion": "Deceased Students (__count__)",
+          "enrolled_exclusion": "Students Enrolled in an Upcoming Term (__count__)",
+          "opened_exclusion": "Exclude Students Who Opened a Previous Email in this Campaign (__count__)",
+            "withdrawn_exclusion": "Exclude Students Who Have Withdrawn from All Courses This Term (__count__)"
+        }
+      }
+    }
+  ]
+}
